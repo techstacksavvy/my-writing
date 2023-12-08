@@ -154,6 +154,10 @@ git archive -v -o <app_file_name.zip> --format=zip HEAD
 
 ![](https://github.com/techstacksavvy/my-writing/blob/first_user_guide/images/eb_status.png)
 
+URL Shortner Browser View
+
+![](https://github.com/techstacksavvy/my-writing/blob/first_user_guide/images/url_shortner.png)
+
 ## See also
 
 
