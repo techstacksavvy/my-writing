@@ -34,6 +34,7 @@ The Ubuntu EC2 instance will function as your Jenkins server.
 
 -   **Retrieve public IP of your instance in the EC2 dashboard.**
 
+![](images/instance.png)
 
 ### Step 2: SSH into your Jenkins Server
 
