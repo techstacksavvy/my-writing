@@ -34,7 +34,7 @@ The Ubuntu EC2 instance will function as your Jenkins server.
 
 -   **Retrieve public IP of your instance in the EC2 dashboard.**
 
-![](images/instance.png)
+![](https://github.com/techstacksavvy/my-writing/blob/first_user_guide/images/instance.png)
 
 ### Step 2: SSH into your Jenkins Server
 
@@ -86,6 +86,7 @@ sudo apt-get install python3.10-venv
 
 This option gives Jenkins control of the repo hooks and of your private repositories, also known as your source code files.
 
+![](https://github.com/techstacksavvy/my-writing/blob/first_user_guide/images/personal_access_token.png)
 
 > 🚩 **NOTE**:  
    **Do Not** store your access token GitHub.    
@@ -99,6 +100,8 @@ This option gives Jenkins control of the repo hooks and of your private reposito
     *   enter http://your-server-ip:8080 in your browser
     *   log in
         *   unlock Jenkins(if required) - you may need to unlock Jenkins using the initial administrator password. 
+
+![](https://github.com/techstacksavvy/my-writing/blob/first_user_guide/images/unlock_jenkins.png)
 
 2.  Install suggested plugins
 
@@ -114,7 +117,11 @@ This option gives Jenkins control of the repo hooks and of your private reposito
         *   Validate
         *   Save
         *   Apply
-    
+
+![](https://github.com/techstacksavvy/my-writing/blob/first_user_guide/images/jenkins_gui.png)
+
+A successful build pipeline
+![](https://github.com/techstacksavvy/my-writing/blob/first_user_guide/images/successful_build.png)
 
 ### Step 6: Download GitHub Application Files
 
@@ -144,6 +151,7 @@ git archive -v -o <app_file_name.zip> --format=zip HEAD
 
 2.  Copy and Paste the generated URL code into a web browser
 
+![](https://github.com/techstacksavvy/my-writing/blob/first_user_guide/images/eb_status.png)
 
 ## See also
 
