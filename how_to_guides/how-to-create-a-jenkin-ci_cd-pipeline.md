@@ -121,6 +121,7 @@ This option gives Jenkins control of the repo hooks and of your private reposito
 ![](https://github.com/techstacksavvy/my-writing/blob/first_user_guide/images/jenkins_gui.png)
 
 A successful build pipeline
+
 ![](https://github.com/techstacksavvy/my-writing/blob/first_user_guide/images/successful_build.png)
 
 ### Step 6: Download GitHub Application Files
