@@ -74,7 +74,7 @@ This command will create a user named Sasha.
 
 ```sudo useradd Sasha```
 
-![New User](https://github.com/techstacksavvy/technical-writing-drafts/blob/creating_new_user_linux/images/useradd.png)
+![New User](https://github.com/techstacksavvy/my-writing/blob/creating_new_user_linux/images/useradd.png)
 
 This command will create a user named Sasha and add him to the accountant group. 
 
