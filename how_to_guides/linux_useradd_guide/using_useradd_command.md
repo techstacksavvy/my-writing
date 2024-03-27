@@ -1,4 +1,4 @@
-![Banner](https://github.com/techstacksavvy/technical-writing-drafts/blob/creating_new_user_linux/images/Pink%20and%20Blue%20Digital%20Brainstorm%20Presentation.gif)
+![Banner](https://github.com/techstacksavvy/my-writing/blob/creating_new_user_linux/images/Pink%20and%20Blue%20Digital%20Brainstorm%20Presentation.gif)
 
 # Linux User Creation Guide 👩🏾‍💻
 
