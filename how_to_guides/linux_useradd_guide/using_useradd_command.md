@@ -76,11 +76,11 @@ This command will create a user named Sasha.
 
 ![New User](https://github.com/techstacksavvy/my-writing/blob/creating_new_user_linux/images/useradd.png)
 
-This command will create a user named Sasha and add him to the accountant group. 
+This command will create a user named Sasha and add her to the accountant group. 
 
 ```sudo useradd -G accountant Sasha```
 
-![](https://github.com/techstacksavvy/technical-writing-drafts/blob/creating_new_user_linux/images/usermod_g.png)
+![](https://github.com/techstacksavvy/my-writing/how_to_guides/linux_useradd_guide/images/usermod_g.png)
 
 > Note: The `sudo` command is utilized here because elevated permissions are required to create a new user. You will be prompted to enter the root user password.
 > 
