@@ -55,7 +55,7 @@ The terminal also known as a command line interface(CLI) differs from a graphica
 
 3.  Press Enter or click on the "Terminal" icon in the search results.
 
-![Terminal](https://github.com/techstacksavvy/technical-writing-drafts/blob/creating_new_user_linux/images/terminal.png)
+![Terminal](https://github.com/techstacksavvy/my-writing/blob/main/how_to_guides/linux_useradd_guide/images/terminal.png)
 
 # User Creation Command
 
@@ -75,13 +75,13 @@ This command will create a user named Sasha.
 
 ```sudo useradd Sasha```
 
-![New User](https://github.com/techstacksavvy/my-writing/blob/creating_new_user_linux/images/useradd.png)
+![New User](https://github.com/techstacksavvy/my-writing/blob/main/how_to_guides/linux_useradd_guide/images/useradd.png)
 
 This command will create a user named Sasha and add her to the accountant group. 
 
 ```sudo useradd -G accountant Sasha```
 
-![](https://github.com/techstacksavvy/my-writing/how_to_guides/linux_useradd_guide/images/usermod_g.png)
+![](https://github.com/techstacksavvy/my-writing/blob/main/how_to_guides/linux_useradd_guide/images/usermod_g.png)
 
 > Note: The `sudo` command is utilized here because elevated permissions are required to create a new user. You will be prompted to enter the root user password.
 > 
@@ -89,7 +89,7 @@ This command will create a user named Sasha and add her to the accountant group.
 
 If you type the following command in the terminal, `groups Sasha` you will see that Sasha is now a part of the accountant group.
 
-![](https://github.com/techstacksavvy/technical-writing-drafts/blob/creating_new_user_linux/images/accountant_group.png)
+![](https://github.com/techstacksavvy/my-writing/blob/main/how_to_guides/linux_useradd_guide/images/accountant_group.png)
 
 ## Set Passwords
 
@@ -109,7 +109,7 @@ Enter your desired password and then renter it when prompted.
 
 The result should be `passwd: password updated successfully`.
 
-![Password Command](https://github.com/techstacksavvy/technical-writing-drafts/blob/creating_new_user_linux/images/passwd.png)
+![Password Command](https://github.com/techstacksavvy/my-writing/blob/main/how_to_guides/linux_useradd_guide/images/passwd.png)
 
 ## Assign User Groups
 
@@ -125,7 +125,7 @@ This command will add Sasha to the sales group as a secondary group.
 
 ```sudo usermod -aG sales Sasha```
 
-![Secondary Group](https://github.com/techstacksavvy/technical-writing-drafts/blob/creating_new_user_linux/images/usermod_ag.png)
+![Secondary Group](https://github.com/techstacksavvy/my-writing/blob/main/how_to_guides/linux_useradd_guide/images/usermod_ag.png)
 
 User groups help you to define a set of permissions that you can then impose on other users.
 
@@ -138,7 +138,7 @@ Executing this command will establish a new user account named Diane and generat
 ```
 useradd -m Diane
 ```
-![](https://github.com/techstacksavvy/technical-writing-drafts/blob/creating_new_user_linux/images/useradd_m.png)
+![](https://github.com/techstacksavvy/my-writing/blob/main/how_to_guides/linux_useradd_guide/images/useradd_m.png)
 
 ## Verify User Creation
 
@@ -149,7 +149,7 @@ To verify the successful creation of the new user enter the following command
 ```
 sudo cat /etc/passwd
 ```
-![](https://github.com/techstacksavvy/technical-writing-drafts/blob/creating_new_user_linux/images/etc_passwd.png)
+![](https://github.com/techstacksavvy/my-writing/blob/main/how_to_guides/linux_useradd_guide/images/etc_passwd.png)
 
 ## User Deactivation
 
@@ -158,12 +158,12 @@ To deactivate or lock and unlock a user account with the passwd command enter th
 ```
 sudo passwd -l username
 ```
-![](https://github.com/techstacksavvy/technical-writing-drafts/blob/creating_new_user_linux/images/passwd_l.png)
+![](https://github.com/techstacksavvy/my-writing/blob/main/how_to_guides/linux_useradd_guide/images/passwd_l.png)
 
 ```
 sudo passwd -u username
 ```
-![](https://github.com/techstacksavvy/technical-writing-drafts/blob/creating_new_user_linux/images/passwd_u.png)
+![](https://github.com/techstacksavvy/my-writing/blob/main/how_to_guides/linux_useradd_guide/images/passwd_u.png)
 
 ## Troubleshooting Tips
 
